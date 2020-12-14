@@ -1,0 +1,60 @@
+.register {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: initial;
+
+  font-size: 0.8rem;
+  padding-left: 10px;
+  max-height: 60px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: unset;
+}
+
+.register-container {
+  border-bottom: solid 1px #829281;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  position: relative;
+  margin-top: 6px;
+  line-height: 24px;
+  right: -213px;
+}
+
+.clipboard {
+  display: inline-block;
+  position: relative;
+  left: -104px;
+  visibility: hidden;
+  cursor: pointer
+}
+
+.trash {
+
+
+  display: inline-block;
+  position: relative;
+  left: -90px;
+  visibility: hidden;
+  cursor: pointer
+
+}
+
+.register-container:hover>.clipboard {
+  visibility: visible;
+}
+.register-container:hover>.trash {
+  visibility: visible;
+}
+
+.fist {
+  border-top: solid 1px #829281;
+
+}
+
+.register:hover {
+  overflow-y: scroll;
+}

@@ -1,0 +1,16 @@
+yarn run v1.22.5
+$ cross-env START_HOT=1 node -r @babel/register ./internals/scripts/CheckPortInUse.js && cross-env START_HOT=1 yarn start-renderer-dev
+/home/pablo/Escritorio/git/personales/magic-clipboard/internals/scripts/CheckPortInUse.js:21
+    throw new Error(_chalk["default"].whiteBright.bgRed.bold("Port \"".concat(port, "\" on \"localhost\" is already in use. Please use another port. ex: PORT=4343 yarn dev")));
+    ^
+
+Error: Port "1212" on "localhost" is already in use. Please use another port. ex: PORT=4343 yarn dev
+    at /home/pablo/Escritorio/git/personales/magic-clipboard/internals/scripts/CheckPortInUse.js:8:11
+    at /home/pablo/Escritorio/git/personales/magic-clipboard/node_modules/detect-port/lib/detect-port.js:93:13
+    at Server.<anonymous> (/home/pablo/Escritorio/git/personales/magic-clipboard/node_modules/detect-port/lib/detect-port.js:118:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitListeningNT (net.js:1347:10)
+    at processTicksAndRejections (internal/process/task_queues.js:83:21)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

@@ -1,0 +1,13 @@
+.titlebar{
+
+    display: block;
+    min-height: 30px;
+    background-color: white;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background: #0f4552;
+    color: #9fa8ab;
+
+
+}
+
